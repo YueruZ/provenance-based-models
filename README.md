@@ -1,2 +1,2 @@
 # Provenance-based-models-code
-This is the code of Universal Response Function (URF) and Universal Transfer Function (UTF) for predicting lodgepole pine's fundamental niche and productivity with Illingworth provenance trial data.
+A summary of all the code that has been used to generate the reuslt in manuscript "Predicting the global fundamental climate niche of lodgepole pine based on provenance trials" submitted at Ecological Application. Details can be found in the file "Code_summary_URF_UTF.R".
