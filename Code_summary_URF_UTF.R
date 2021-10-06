@@ -5,8 +5,7 @@ Authors: Yueru Zhao and Tongli Wang
   
 # code for each model mentioned in the manuscript (Table1 and Table2)
   ## Loading packages
-library(Matrix);library(sp);library(raster);library(lme4);library(nlme);library(r2glmm);library(MuMIn)
-library(raster)
+library(Matrix);library(raster);library(lme4)
 
   ## dat2: provenance data used for model training
   ## ht20: 20 year tree height
@@ -152,3 +151,18 @@ for (i in c(1:10)){
   i=i+1
   mean(cv$X1);mean(cv$X2)
 }
+
+# Citations
+Robert J. Hijmans (2021). raster: Geographic Data Analysis
+  and Modeling. R package version 3.4-13.
+  https://CRAN.R-project.org/package=raster
+
+Douglas Bates and Martin Maechler (2021). Matrix: Sparse
+  and Dense Matrix Classes and Methods. R package version
+  1.3-4. https://CRAN.R-project.org/package=Matrix
+
+Douglas Bates, Martin Maechler, Ben Bolker, Steve Walker
+  (2015). Fitting Linear Mixed-Effects Models Using lme4.
+  Journal of Statistical Software, 67(1), 1-48.
+  doi:10.18637/jss.v067.i01.
+
