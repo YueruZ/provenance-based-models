@@ -1,8 +1,6 @@
 ---
-  title: "final models"
-output:
-  html_document: default
-pdf_document: default
+Manuscript title: "Predicting the global fundamental climate niche of lodgepole pine based on provenance trials"
+Authors: Yueru Zhao and Tongli Wang
 ---
   
 # code for each model mentioned in the manuscript (Table1 and Table2)
