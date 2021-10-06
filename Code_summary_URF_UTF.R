@@ -100,12 +100,12 @@ prov_result
 
 #code for generating maps used in the manuscript (Figure 3 and 4)
 ## Raster stack of Western North America or world climate data (here using world data for demonstration)
-## Function Predict_map() for predicting spatial distribution of fundamental niche and productivity
+## Function Predict_map() for predicting spatial distribution of fundamental niche and productivity using climate data in raster format
 ## period: climate period. Can be "current" or "future".
 ## type: type of seed source. Can be "local" or "optimal". 
 Predict_map <- function(period, type) {
   if(period=='current'){
-    stk_w <- stack(mat_s_current,mat_p_current,lahm_s_current,lahm_p_current);stk
+    stk_w <- stack(mat_s_current,mat_p_current,lahm_s_current,lahm_p_current);stk # stack containing raster layers of each climate variable
     names(stk_w) <- c('mat_s','mat_p', 'lahm_s', 'lahm_p');stk_w
   }
   if(period=='future'){
